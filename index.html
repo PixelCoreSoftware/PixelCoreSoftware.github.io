@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PixelCore | Innovative Tech Solutions</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9fb;
+      color: #222;
+    }
+    header {
+      background-color: rgb(100, 64, 139);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      position: relative;
+      overflow: hidden;
+    }
+    header img {
+      max-width: 120px;
+      display: block;
+      margin: 0 auto 1rem;
+      animation: float 4s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    .service-card {
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      padding: 2rem;
+      transition: transform 0.3s ease;
+      width: 280px;
+      flex: 0 0 auto;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+    .service-card h3 {
+      color: rgb(100, 64, 139);
+      margin-bottom: 1rem;
+    }
+    footer {
+      background-color: #ece6f3;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 1rem;
+    }
+    footer a {
+      color: rgb(100, 64, 139);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="PixelCore Logo">
+    <h1>Welcome to PixelCore</h1>
+    <p>Innovative Tech Solutions for Your Digital Needs</p>
+  </header>
+  <section class="services">
+    <div class="service-card">
+      <h3>Web Page Design</h3>
+      <p>Custom, responsive, and modern websites to showcase your brand online.</p>
+    </div>
+    <div class="service-card">
+      <h3>Software Testing</h3>
+      <p>Ensure quality with manual and automated testing services.</p>
+    </div>
+    <div class="service-card">
+      <h3>Mobile App Development</h3>
+      <p>Android and iOS apps built for performance and user experience.</p>
+    </div>
+    <div class="service-card">
+      <h3>IoT Solutions</h3>
+      <p>Smart integrations and embedded systems to connect your world.</p>
+    </div>
+  </section>
+  <footer>
+    <p>Contact us at <a href="tel:+201101221929">+20 110 122 1929</a></p>
+    <p>&copy; 2025 PixelCore. All rights reserved.</p>
+  </footer>
+</body>
+</html>
